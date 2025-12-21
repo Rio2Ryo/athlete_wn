@@ -2,9 +2,13 @@
 
 import Header from '@/components/Header';
 import AthleteHero from '@/components/AthleteHero';
-import Products from '@/components/Products';
-import AthleteProfile from '@/components/AthleteProfile';
+import AboutMotherVegetable from '@/components/AboutMotherVegetable';
+import ProductsNew from '@/components/ProductsNew';
+import Nutrients48 from '@/components/Nutrients48';
+import AthleteEffects from '@/components/AthleteEffects';
 import AthleteTestimonial from '@/components/AthleteTestimonial';
+import AthleteIntroduction from '@/components/AthleteIntroduction';
+import MotherVegetableProject from '@/components/MotherVegetableProject';
 import Partners from '@/components/Partners';
 import Footer from '@/components/Footer';
 import { LanguageProvider } from '@/contexts/LanguageContext';
@@ -15,10 +19,31 @@ export default function Home() {
       <div className="min-h-screen bg-black text-white font-sans selection:bg-[#4ade80] selection:text-black">
         <Header />
         <main>
+          {/* Hero Section with Athlete Image */}
           <AthleteHero />
-          <Products />
-          <AthleteProfile />
+          
+          {/* About Mother Vegetable */}
+          <AboutMotherVegetable />
+          
+          {/* Products Section */}
+          <ProductsNew />
+          
+          {/* 48 Nutrients */}
+          <Nutrients48 />
+          
+          {/* Athlete Effects */}
+          <AthleteEffects />
+          
+          {/* Athlete Testimonials */}
           <AthleteTestimonial />
+          
+          {/* Athlete Introduction & Why Mother Vegetable */}
+          <AthleteIntroduction />
+          
+          {/* Mother Vegetable Project */}
+          <MotherVegetableProject />
+          
+          {/* Partners */}
           <Partners />
         </main>
         <Footer />

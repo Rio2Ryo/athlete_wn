@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="absolute right-0 top-0 bottom-0 w-1/2 flex items-center justify-center">
         <div className="relative w-full h-full max-w-3xl">
           <Image
-            src="/earth.jpg"
+            src="/earth.png"
             alt="Earth"
             fill
             className="object-contain"

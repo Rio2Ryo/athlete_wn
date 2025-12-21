@@ -14,7 +14,7 @@ interface ProductCardProps {
 
 function ProductCard({ title, subtitle, method, description, benefits, howToUse, imageSrc }: ProductCardProps) {
   return (
-    <div className="border-2 border-[#4ade80] rounded-lg p-6 bg-black/80 hover:border-[#4ade80]/60 transition-all duration-300">
+    <div className="border border-[#4ade80] rounded-lg p-6 bg-black/80 hover:border-[#4ade80]/60 transition-all duration-300">
       {/* 製品画像 */}
       <div className="relative w-full h-64 mb-6">
         <Image
@@ -30,7 +30,7 @@ function ProductCard({ title, subtitle, method, description, benefits, howToUse,
       <p className="text-gray-400 mb-4">{subtitle}</p>
 
       {/* 方法 */}
-      <p className="text-pink-500 font-bold mb-2">{method}</p>
+      <p className="text-red-500 font-bold mb-2">{method}</p>
       <p className="text-white mb-4">{description}</p>
 
       {/* 効果 */}

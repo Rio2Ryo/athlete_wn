@@ -23,14 +23,14 @@ export default function AthleteHero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left: Text Content */}
           <div className="text-center md:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#4ade80] to-[#22c55e] bg-clip-text text-transparent leading-tight">
-              Mother vegetable<br />
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#4ade80] to-[#22c55e] bg-clip-text text-transparent leading-tight">
+              Mother Vegetable<br />
               Pro athletes<br />
               Foundation
             </h1>
             
             <div className="space-y-4 text-lg md:text-xl text-gray-300">
-              <p className="text-[#4ade80]">The vegetable from 3.5 billion years ago</p>
+              <p className="text-[#4ade80]">The Vegetable from 3.5 billion years ago</p>
               <p className="text-2xl md:text-3xl font-semibold text-white">"Mother Vegetable"</p>
               <p className="text-[#4ade80]">Earth's life force, for you.</p>
             </div>

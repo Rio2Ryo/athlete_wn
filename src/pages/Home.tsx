@@ -1,9 +1,10 @@
 "use client";
 
 import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import ProjectOverview from '@/components/ProjectOverview';
-import AthleteRoster from '@/components/AthleteRoster';
+import AthleteHero from '@/components/AthleteHero';
+import Products from '@/components/Products';
+import AthleteProfile from '@/components/AthleteProfile';
+import AthleteTestimonial from '@/components/AthleteTestimonial';
 import Partners from '@/components/Partners';
 import Footer from '@/components/Footer';
 import { LanguageProvider } from '@/contexts/LanguageContext';
@@ -14,14 +15,15 @@ export default function Home() {
       <div className="min-h-screen bg-black text-white font-sans selection:bg-[#4ade80] selection:text-black">
         <Header />
         <main>
-          <Hero />
-          <ProjectOverview />
-          <AthleteRoster />
+          <AthleteHero />
+          <Products />
+          <AthleteProfile />
+          <AthleteTestimonial />
           <Partners />
         </main>
         <Footer />
         
-        {/* Mazavege-chan Fixed Widget (Placeholder) */}
+        {/* Mazavege-chan Fixed Widget */}
         <div className="fixed bottom-4 right-4 z-50 flex flex-col items-center pointer-events-none">
           <div className="w-16 h-16 md:w-24 md:h-24 rounded-full bg-gray-800 border-2 border-[#4ade80] overflow-hidden shadow-[0_0_20px_rgba(74,222,128,0.3)]">
             <img

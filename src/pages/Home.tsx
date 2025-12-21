@@ -1,15 +1,15 @@
 "use client";
 
 import Header from '@/components/Header';
-import AthleteHero from '@/components/AthleteHero';
-import AboutMotherVegetable from '@/components/AboutMotherVegetable';
-import ProductsNew from '@/components/ProductsNew';
-import Nutrients48 from '@/components/Nutrients48';
-import AthleteEffects from '@/components/AthleteEffects';
-import AthleteTestimonial from '@/components/AthleteTestimonial';
-import AthleteIntroduction from '@/components/AthleteIntroduction';
-import MotherVegetableProject from '@/components/MotherVegetableProject';
-import Partners from '@/components/Partners';
+import HeroSection from "@/components/HeroSection";
+import AthleteHeroSection from "@/components/AthleteHeroSection";
+import ProductsSection from "@/components/ProductsSection";
+import JapaneseMeaningSection from "@/components/JapaneseMeaningSection";
+import OurTrustSection from "@/components/OurTrustSection";
+import FoodFunctionSection from "@/components/FoodFunctionSection";
+import CosmeticFunctionSection from "@/components/CosmeticFunctionSection";
+import AthleteTestimonialSection from "@/components/AthleteTestimonialSection";
+import TwoOnlyOnesSection from "@/components/TwoOnlyOnesSection";
 import Footer from '@/components/Footer';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 
@@ -19,32 +19,32 @@ export default function Home() {
       <div className="min-h-screen bg-black text-white font-sans selection:bg-[#4ade80] selection:text-black">
         <Header />
         <main>
-          {/* Hero Section with Athlete Image */}
-          <AthleteHero />
+          {/* ヒーローセクション（mothervegetable.comと同じ） */}
+          <HeroSection />
           
-          {/* About Mother Vegetable */}
-          <AboutMotherVegetable />
+          {/* 永原選手のヒーローセクション */}
+          <AthleteHeroSection />
           
-          {/* Products Section */}
-          <ProductsNew />
+          {/* 製品セクション（Achieve, Confidence のみ） */}
+          <ProductsSection />
           
-          {/* 48 Nutrients */}
-          <Nutrients48 />
+          {/* 日本語の意味（TORIKOMU, MAZEKOMU, SURIKOMU） */}
+          <JapaneseMeaningSection />
           
-          {/* Athlete Effects */}
-          <AthleteEffects />
+          {/* Our Trust（認証バッジ） */}
+          <OurTrustSection />
           
-          {/* Athlete Testimonials */}
-          <AthleteTestimonial />
+          {/* Food Function（48 Nutrients + 対象別効果） */}
+          <FoodFunctionSection />
           
-          {/* Athlete Introduction & Why Mother Vegetable */}
-          <AthleteIntroduction />
+          {/* Cosmetic Function（Confidence効果） */}
+          <CosmeticFunctionSection />
           
-          {/* Mother Vegetable Project */}
-          <MotherVegetableProject />
+          {/* 永原選手の使用感想 */}
+          <AthleteTestimonialSection />
           
-          {/* Partners */}
-          <Partners />
+          {/* Two Only Ones（Mother Vegetable Project） */}
+          <TwoOnlyOnesSection />
         </main>
         <Footer />
         

@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import ErrorBoundary from "@/components/ErrorBoundary";
-import { ThemeProvider } from "@/contexts/ThemeContext";
-import "@/index.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MV Athlete Foundation",
-  description: "MV Athlete Foundation",
+  title: "Mother Vegetable - Natural Healing Products",
+  description: "Discover the power of nature with our revolutionary products designed to restore balance and promote healing for all living beings.",
 };
 
 export default function RootLayout({
@@ -17,15 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <ErrorBoundary>
-          <ThemeProvider defaultTheme="dark">
-            <TooltipProvider>
-              <Toaster />
-              {children}
-            </TooltipProvider>
-          </ThemeProvider>
-        </ErrorBoundary>
+      <body className="antialiased">
+        {children}
       </body>
     </html>
   );

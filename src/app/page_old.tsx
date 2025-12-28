@@ -63,7 +63,7 @@ export default function Home() {
             Earth&apos;s life <span className="text-red-500">force</span>, for you.
           </p>
           
-          <div className="mt-8 pt-8 border-t border-green-500" style={{ borderStyle: 'dashed' }}>
+          <div className="mt-8 pt-8 border-t-2 border-green-500" style={{ borderStyle: 'dashed' }}>
             <p className="text-2xl text-white font-bold mb-2">長原和那</p>
             <p className="text-lg text-gray-300">バドミントン日本代表選手</p>
           </div>
@@ -71,9 +71,9 @@ export default function Home() {
       </section>
 
       {/* Japanese Explanation Section */}
-      <section className="py-12 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
+      <section className="py-12 bg-black border-b-2 border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto border-2 border-green-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
+          <div className="max-w-4xl mx-auto border-2 border-green-500 p-8" style={{ borderStyle: 'dashed' }}>
             <div className="space-y-4 text-center">
               <p className="text-lg">
                 <span className="text-red-500 font-bold">&apos;TORIKOMU&apos;</span> means of having in Japanese as <span className="text-white">「取り込む」</span>
@@ -90,17 +90,17 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
+      <section id="products" className="py-20 bg-black border-b-2 border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">Products</h2>
             <div className="w-48 h-1 bg-green-500 mx-auto"></div>
           </div>
 
-          <div className="border-2 border-green-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
+          <div className="border-4 border-green-500 p-8" style={{ borderStyle: 'dashed' }}>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Achieve Card */}
-              <div className="border-2 border-red-500 p-6 rounded" style={{ borderStyle: 'dashed' }}>
+              <div className="border-4 border-green-500 p-6" style={{ borderStyle: 'dashed' }}>
                 <div className="aspect-square mb-6 bg-black overflow-hidden flex items-center justify-center">
                   <video 
                     autoPlay 
@@ -131,13 +131,13 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>view more</a>
-                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>Shop</a>
+                  <a href="#" className="flex-1 text-center py-2 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition" style={{ borderStyle: 'dashed' }}>view more</a>
+                  <a href="#" className="flex-1 text-center py-2 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition" style={{ borderStyle: 'dashed' }}>Shop</a>
                 </div>
               </div>
 
               {/* Confidence Card */}
-              <div className="border-2 border-green-500 p-6 rounded" style={{ borderStyle: 'dashed' }}>
+              <div className="border-4 border-red-500 p-6" style={{ borderStyle: 'dashed' }}>
                 <div className="aspect-square mb-6 bg-black overflow-hidden flex items-center justify-center">
                   <video 
                     autoPlay 
@@ -168,13 +168,13 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex-1 text-center py-2 border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition rounded" style={{ borderStyle: 'dashed' }}>view more</a>
-                  <a href="#" className="flex-1 text-center py-2 border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition rounded" style={{ borderStyle: 'dashed' }}>Shop</a>
+                  <a href="#" className="flex-1 text-center py-2 border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition" style={{ borderStyle: 'dashed' }}>view more</a>
+                  <a href="#" className="flex-1 text-center py-2 border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition" style={{ borderStyle: 'dashed' }}>Shop</a>
                 </div>
               </div>
 
               {/* Forever Card */}
-              <div className="border border-green-500 p-6 rounded">
+              <div className="border-4 border-green-500 p-6" style={{ borderStyle: 'dashed' }}>
                 <div className="aspect-square mb-6 bg-black overflow-hidden flex items-center justify-center">
                   <video 
                     autoPlay 
@@ -204,8 +204,8 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>view more</a>
-                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>Shop</a>
+                  <a href="#" className="flex-1 text-center py-2 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition" style={{ borderStyle: 'dashed' }}>view more</a>
+                  <a href="#" className="flex-1 text-center py-2 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition" style={{ borderStyle: 'dashed' }}>Shop</a>
                 </div>
               </div>
             </div>
@@ -214,102 +214,98 @@ export default function Home() {
       </section>
 
       {/* Athlete Profile */}
-      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
+      <section className="py-20 bg-black border-b-2 border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">Athlete Profile</h2>
             <div className="w-48 h-1 bg-green-500 mx-auto"></div>
           </div>
 
-          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-            <div className="border-2 border-green-500 p-4 rounded" style={{ borderStyle: 'dashed' }}>
-              <img 
-                src="/nagahara.jpg" 
-                alt="長原和那" 
-                className="w-full h-auto"
-              />
+          <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="border-4 border-green-500 p-4" style={{ borderStyle: 'dashed' }}>
+                <img 
+                  src="/nagahara_rakket.jpg" 
+                  alt="Nagahara Wakana" 
+                  className="w-full h-auto"
+                />
+              </div>
             </div>
-
-            <div>
-              <h3 className="text-4xl font-bold text-green-500 mb-4">長原和那</h3>
-              <p className="text-xl text-gray-300 mb-2">Nagahara Wakana</p>
-              <p className="text-lg text-gray-400 mb-6">バドミントン日本代表選手</p>
+            
+            <div className="md:w-1/2 space-y-6">
+              <h3 className="text-4xl font-bold text-green-500">長原和那</h3>
+              <p className="text-xl text-gray-300">Nagahara Wakana</p>
+              <p className="text-lg text-white font-semibold">バドミントン日本代表選手</p>
               
-              <p className="text-gray-300 mb-6">
+              <p className="text-gray-300 leading-relaxed">
                 世界トップレベルで活躍するバドミントン選手。日々のハードなトレーニングと試合で、最高のパフォーマンスを維持するためにMother Vegetable製品を愛用。
               </p>
-
-              <h4 className="text-2xl font-bold text-green-500 mb-4">主な実績</h4>
-              <ul className="space-y-2 text-gray-300">
-                <li>• 世界バドミントン選手権大会 出場</li>
-                <li>• 国際大会 多数優勝</li>
-                <li>• 日本代表として世界で活躍</li>
-              </ul>
+              
+              <div>
+                <h4 className="text-xl font-bold text-green-500 mb-4 border-b-2 border-green-500 inline-block">主な実績</h4>
+                <ul className="space-y-2 text-gray-300 mt-4">
+                  <li>• 世界バドミントン選手権大会 出場</li>
+                  <li>• 国際大会 多数優勝</li>
+                  <li>• 日本代表として世界で活躍</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Testimonial */}
-      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
+      <section className="py-20 bg-black border-b-2 border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">Testimonial</h2>
             <div className="w-48 h-1 bg-green-500 mx-auto"></div>
           </div>
 
-          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-            <div className="border-2 border-green-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div className="border-4 border-green-500 p-8" style={{ borderStyle: 'dashed' }}>
               <h3 className="text-2xl font-bold text-green-500 mb-4">Achieve - 体のために</h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-gray-300 leading-relaxed mb-4">
                 「トレーニング後の回復が早くなり、翌日のコンディションが全く違います。48種類の栄養素を一度に摂取できるので、忙しい遠征中でも栄養バランスを保てています。」
               </p>
-              <p className="text-gray-400 text-right">- 長原和那</p>
+              <p className="text-gray-400 text-sm">- 長原和那</p>
             </div>
 
-            <div className="border-2 border-red-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
+            <div className="border-4 border-red-500 p-8" style={{ borderStyle: 'dashed' }}>
               <h3 className="text-2xl font-bold text-red-500 mb-4">Confidence - 肌のために</h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-gray-300 leading-relaxed mb-4">
                 「練習で大量の汗をかくので肌トラブルが悩みでしたが、Confidenceを使い始めてから肌の調子が良くなりました。試合前でも自信を持って臨めます。」
               </p>
-              <p className="text-gray-400 text-right">- 長原和那</p>
+              <p className="text-gray-400 text-sm">- 長原和那</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 48 Nutrients Badges */}
-      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
+      {/* 48 Nutrients */}
+      <section className="py-20 bg-black border-b-2 border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
-          <div className="flex justify-center gap-4 mb-12 flex-wrap">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex flex-col items-center justify-center text-center p-4">
-              <p className="text-xs font-bold text-white mb-1">Essential Fatty Acids</p>
-              <p className="text-2xl font-bold text-white">9 types</p>
-            </div>
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex flex-col items-center justify-center text-center p-4">
-              <p className="text-xs font-bold text-white mb-1">Amino Acids</p>
-              <p className="text-2xl font-bold text-white">10 types</p>
-            </div>
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex flex-col items-center justify-center text-center p-4">
-              <p className="text-xs font-bold text-white mb-1">Vital Vitamins</p>
-              <p className="text-2xl font-bold text-white">18 types</p>
-            </div>
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex flex-col items-center justify-center text-center p-4">
-              <p className="text-xs font-bold text-white mb-1">Key Minerals For Balance</p>
-              <p className="text-2xl font-bold text-white">3 types</p>
-            </div>
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex flex-col items-center justify-center text-center p-4">
-              <p className="text-xs font-bold text-white mb-1">Other Functional Ingredients</p>
-              <p className="text-2xl font-bold text-white">9 types</p>
-            </div>
+          <div className="flex justify-center gap-8 mb-12 flex-wrap">
+            {[
+              { name: 'Essential Fatty Acids', count: '9 types' },
+              { name: 'Amino Acids', count: '10 types' },
+              { name: 'Vital Vitamins', count: '18 types' },
+              { name: 'Key Minerals For Balance', count: '3 types' },
+              { name: 'Other Functional Ingredients', count: '9 types' }
+            ].map((item, index) => (
+              <div key={index} className="w-32 h-32 rounded-full bg-gradient-to-br from-green-600 to-green-800 flex flex-col items-center justify-center text-center p-4">
+                <p className="text-white text-xs font-bold mb-1">{item.name}</p>
+                <p className="text-white text-sm">{item.count}</p>
+              </div>
+            ))}
           </div>
 
           <div className="text-center mb-12">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">48 Nutrients</h2>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <p className="text-gray-300 text-center leading-relaxed">
+          <div className="max-w-5xl mx-auto text-center">
+            <p className="text-gray-400 text-sm leading-relaxed">
               Potassium, sodium, magnesium, calcium, phosphorus, iron, manganese, zinc, copper, Vitamin A, B1, B2, B3, B5, B6, B9, C, E, K, tryptophan, threonine, leucine, isoleucine, lysine, methionine, phenylalanine, valine, histidine, arginine, cystine, tyrosine, alanine, aspartic acid, glutamic acid, serine, glycine, proline, saturated fatty acids, omega-3 fatty acids, omega-6 fatty acids, C-phycocyanin, chlorophyll a, total carotenoids, nucleic acids, spirulan, glycogen-like polysaccharides, β-glucan-like polysaccharides, cellulose.
             </p>
           </div>
@@ -317,18 +313,17 @@ export default function Home() {
       </section>
 
       {/* Athletes Section */}
-      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
+      <section className="py-20 bg-black border-b-2 border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center mb-8">
-              <span className="text-6xl mr-4">🏃</span>
+            <div className="flex items-center gap-8 mb-8">
+              <div className="text-6xl">🏃</div>
               <div>
-                <h2 className="text-5xl md:text-6xl font-bold text-green-500">Athletes</h2>
-                <div className="w-48 h-1 bg-green-500 mt-2"></div>
+                <h2 className="text-4xl font-bold text-green-500 border-b-2 border-green-500 inline-block">Athletes</h2>
               </div>
             </div>
-
-            <ul className="space-y-4 text-gray-300 text-lg">
+            
+            <ul className="space-y-3 text-gray-300">
               <li>• 添加物のデトックス効果</li>
               <li>• 筋肉回復を促進し、持久力を向上</li>
               <li>• 効率的な栄養吸収をサポート</li>
@@ -340,15 +335,23 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-black border-t border-green-500" style={{ borderStyle: 'dashed' }}>
-        <div className="container mx-auto px-4 text-center">
-          <img 
-            src="/Images/Assets/General/logo.png" 
-            alt="Mother Vegetable Logo" 
-            className="h-12 mx-auto mb-6"
-          />
-          <p className="text-gray-400 mb-2">© 2024 Mother Vegetable. All rights reserved.</p>
-          <p className="text-gray-500">Athlete: 長原和那 (Nagahara Wakana)</p>
+      <footer className="bg-black border-t-2 border-green-500 py-12" style={{ borderStyle: 'dashed' }}>
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col items-center space-y-6">
+            <img 
+              src="/Images/Assets/General/logo.png" 
+              alt="Mother Vegetable Logo" 
+              className="h-12"
+            />
+            
+            <p className="text-gray-400 text-sm">
+              © 2024 Mother Vegetable. All rights reserved.
+            </p>
+            
+            <p className="text-gray-400 text-sm">
+              Athlete: 長原和那 (Nagahara Wakana)
+            </p>
+          </div>
         </div>
       </footer>
     </div>

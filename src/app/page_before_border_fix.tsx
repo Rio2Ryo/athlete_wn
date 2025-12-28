@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-black">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <a href="/" className="flex items-center p-2">
+          <a href="/" className="flex items-center border border-green-500 p-2">
             <img 
               src="/Images/Assets/General/logo.png" 
               alt="Mother Vegetable Logo" 
@@ -24,8 +24,8 @@ export default function Home() {
 
           <div className="flex items-center space-x-2">
             <div className="px-3 py-1 border border-red-500 text-white text-sm rounded">Eng</div>
-            <button className="p-2 text-white">🛒</button>
-            <button className="p-2 text-white">👤</button>
+            <button className="p-2 border border-green-500 text-white rounded">🛒</button>
+            <button className="p-2 border border-green-500 text-white rounded">👤</button>
           </div>
         </div>
       </header>
@@ -63,7 +63,7 @@ export default function Home() {
             Earth&apos;s life <span className="text-red-500">force</span>, for you.
           </p>
           
-          <div className="mt-8 pt-8">
+          <div className="mt-8 pt-8 border-t border-green-500" style={{ borderStyle: 'dashed' }}>
             <p className="text-2xl text-white font-bold mb-2">長原和那</p>
             <p className="text-lg text-gray-300">バドミントン日本代表選手</p>
           </div>
@@ -71,9 +71,9 @@ export default function Home() {
       </section>
 
       {/* Japanese Explanation Section */}
-      <section className="py-12 bg-black">
+      <section className="py-12 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto p-8">
+          <div className="max-w-4xl mx-auto border-2 border-green-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
             <div className="space-y-4 text-center">
               <p className="text-lg">
                 <span className="text-red-500 font-bold">&apos;TORIKOMU&apos;</span> means of having in Japanese as <span className="text-white">「取り込む」</span>
@@ -90,17 +90,17 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-20 bg-black">
+      <section id="products" className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">Products</h2>
             <div className="w-48 h-1 bg-green-500 mx-auto"></div>
           </div>
 
-          <div className="p-8">
+          <div className="border-2 border-green-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Achieve Card */}
-              <div className="p-6">
+              <div className="border-2 border-red-500 p-6 rounded" style={{ borderStyle: 'dashed' }}>
                 <div className="aspect-square mb-6 bg-black overflow-hidden flex items-center justify-center">
                   <video 
                     autoPlay 
@@ -131,13 +131,13 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex-1 text-center py-2 text-green-500 hover:bg-green-500 hover:text-black transition">view more</a>
-                  <a href="#" className="flex-1 text-center py-2 text-green-500 hover:bg-green-500 hover:text-black transition">Shop</a>
+                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>view more</a>
+                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>Shop</a>
                 </div>
               </div>
 
               {/* Confidence Card */}
-              <div className="p-6">
+              <div className="border-2 border-green-500 p-6 rounded" style={{ borderStyle: 'dashed' }}>
                 <div className="aspect-square mb-6 bg-black overflow-hidden flex items-center justify-center">
                   <video 
                     autoPlay 
@@ -168,13 +168,13 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex-1 text-center py-2 text-red-500 hover:bg-red-500 hover:text-white transition">view more</a>
-                  <a href="#" className="flex-1 text-center py-2 text-red-500 hover:bg-red-500 hover:text-white transition">Shop</a>
+                  <a href="#" className="flex-1 text-center py-2 border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition rounded" style={{ borderStyle: 'dashed' }}>view more</a>
+                  <a href="#" className="flex-1 text-center py-2 border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition rounded" style={{ borderStyle: 'dashed' }}>Shop</a>
                 </div>
               </div>
 
               {/* Forever Card */}
-              <div className="border border-green-500 p-6 rounded-xl">
+              <div className="border border-green-500 p-6 rounded">
                 <div className="aspect-square mb-6 bg-black overflow-hidden flex items-center justify-center">
                   <video 
                     autoPlay 
@@ -204,8 +204,8 @@ export default function Home() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a href="#" className="flex-1 text-center py-2 text-green-500 hover:bg-green-500 hover:text-black transition">view more</a>
-                  <a href="#" className="flex-1 text-center py-2 text-green-500 hover:bg-green-500 hover:text-black transition">Shop</a>
+                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>view more</a>
+                  <a href="#" className="flex-1 text-center py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black transition rounded" style={{ borderStyle: 'dashed' }}>Shop</a>
                 </div>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* Athlete Profile */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">Athlete Profile</h2>
@@ -222,7 +222,7 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-            <div className="border-2 border-green-500 p-4 rounded">
+            <div className="border-2 border-green-500 p-4 rounded" style={{ borderStyle: 'dashed' }}>
               <img 
                 src="/nagahara.jpg" 
                 alt="長原和那" 
@@ -251,7 +251,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-green-500 mb-6">Testimonial</h2>
@@ -259,7 +259,7 @@ export default function Home() {
           </div>
 
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-            <div className="p-8">
+            <div className="border-2 border-green-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
               <h3 className="text-2xl font-bold text-green-500 mb-4">Achieve - 体のために</h3>
               <p className="text-gray-300 mb-6">
                 「トレーニング後の回復が早くなり、翌日のコンディションが全く違います。48種類の栄養素を一度に摂取できるので、忙しい遠征中でも栄養バランスを保てています。」
@@ -267,7 +267,7 @@ export default function Home() {
               <p className="text-gray-400 text-right">- 長原和那</p>
             </div>
 
-            <div className="border-2 border-red-500 p-8 rounded">
+            <div className="border-2 border-red-500 p-8 rounded" style={{ borderStyle: 'dashed' }}>
               <h3 className="text-2xl font-bold text-red-500 mb-4">Confidence - 肌のために</h3>
               <p className="text-gray-300 mb-6">
                 「練習で大量の汗をかくので肌トラブルが悩みでしたが、Confidenceを使い始めてから肌の調子が良くなりました。試合前でも自信を持って臨めます。」
@@ -279,7 +279,7 @@ export default function Home() {
       </section>
 
       {/* 48 Nutrients Badges */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="flex justify-center gap-4 mb-12 flex-wrap">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-400 to-green-600 flex flex-col items-center justify-center text-center p-4">
@@ -317,7 +317,7 @@ export default function Home() {
       </section>
 
       {/* Athletes Section */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-black border-b border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center justify-center mb-8">
@@ -340,7 +340,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 bg-black border-t border-green-500">
+      <footer className="py-12 bg-black border-t border-green-500" style={{ borderStyle: 'dashed' }}>
         <div className="container mx-auto px-4 text-center">
           <img 
             src="/Images/Assets/General/logo.png" 
